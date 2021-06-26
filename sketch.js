@@ -14,7 +14,6 @@ var snowSound;
 function preload()
 {
   bg = loadImage("snow3.jpg")
-  snowSound=loadSound("snow fall.mp3");
 }
 
 function setup()
@@ -22,7 +21,6 @@ function setup()
   createCanvas(800,400);
   engine = Engine.create();
   world = engine.world;
-  snowSound.loop();
 }
 
 function draw() 
